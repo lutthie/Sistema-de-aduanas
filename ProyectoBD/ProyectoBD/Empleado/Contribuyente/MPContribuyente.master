@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="MPContribuyente.master.cs" Inherits="ProyectoBD.Empleado.Contribuyente.MPContribuyente" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+    <ul id ="menuContextual">
+        <li><a href="InsertarContribuyente.aspx">Insertar contribuyente</a></li>
+        <li><a href="EliminarContribuyente.aspx">Eliminar contribuyente</a></li>
+        <li><a href="ModificarContribuyente.aspx">Modificar contribuyente</a></li>
+        <li><a href="VerContribuyentes.aspx">Datos</a></li>
+
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>

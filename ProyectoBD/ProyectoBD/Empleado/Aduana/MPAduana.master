@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="MPAduana.master.cs" Inherits="ProyectoBD.Empleado.Aduana.MPAduana" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+    <ul id ="menuContextual">
+        <li><a href="InsertarAduana.aspx">Agregar Aduana</a></li>
+        <li><a href="EliminarAduana.aspx">Eliminar Aduana</a></li>
+        <li><a href="ModificarAduana.aspx">Modificar Aduana</a></li>
+        <li><a href="VerAduana.aspx">Aduanas disponibles</a></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>

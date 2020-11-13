@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="MPImportacion.master.cs" Inherits="ProyectoBD.Empleado.Importación.MPImportacion" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+    <ul id ="menuContextual">
+        <li><a href="InsertarImportacion.aspx">Insertar Importación</a></li>
+        <li><a href="EliminarImportacion.aspx">Eliminar Importación</a></li>
+        <li><a href="ModificarImportacion.aspx">Modificar Importación</a></li>
+        <li><a href="MostrarImportacion.aspx">Ver importaciones</a></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>

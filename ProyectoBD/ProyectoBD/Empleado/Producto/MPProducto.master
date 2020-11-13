@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="MPProducto.master.cs" Inherits="ProyectoBD.Empleado.Producto.MPProducto" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+    <ul id ="menuContextual">
+        <li><a href="InsertarProducto.aspx">Insertar productos</a></li>
+        <li><a href="InsertarTProducto.aspx">Insertar Categoría</a></li>
+        <li><a href ="EliminarProducto.aspx">Eliminar Producto</a></li>
+        <li><a href="EliminarTProducto.aspx">Eliminar Categoría</a></li>
+        <li><a href="ModificarProducto.aspx">Modificar Producto</a></li>
+        <li><a href="ModificarTProducto.aspx">Modificar Categoría</a></li>
+        <li><a href="VerProducto.aspx">Producto disponible</a></li>
+        <li><a href="VerTProducto.aspx">Código de categorías</a></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+       
+    </asp:ContentPlaceHolder>
+</asp:Content>

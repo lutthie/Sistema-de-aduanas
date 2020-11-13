@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="MPTratado.master.cs" Inherits="ProyectoBD.Empleado.Tratado.MPTratado" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+    <ul id ="menuContextual">
+        <li><a href="InsertarTratado.aspx">Insertar Tratado</a></li>
+        <li><a href="EliminarTratado.aspx">Eliminar Tratado</a></li>
+        <li><a href="MoficiarTratado.aspx">Modificar Tratado</a></li>
+        <li><a href="VerTratado.aspx">Tratados disponibles</a></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>

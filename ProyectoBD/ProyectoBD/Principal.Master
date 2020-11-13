@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="ProyectoBD.Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="App_Themes/Tema1/estilos.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id = "cabecera">
+                <div id ="contenidoCabecera">
+
+                    <div id ="barraHorizontal">
+                        <ul>
+                            <li><a href ="/Default.aspx">Inicio</a></li>
+                            <li><a href ="/Empleado/Contribuyente/InsertarContribuyente.aspx">Contribuyentes</a></li>
+                            <li><a href ="/Empleado/Factura/SemaforoFactura.aspx">Facturas</a></li>
+                            <li><a href="/Empleado/Producto/InsertarProducto.aspx">Productos</a></li>
+                            <li><a href="/Empleado/Pais/InsertarPais.aspx">Paises</a></li>
+                            <li><a href="/Empleado/Importación/InsertarImportacion.aspx">Importaciones</a></li>
+                            <li><a href="/Empleado/Tratado/InsertarTratado.aspx">Tratados</a></li>
+                            <li><a href="/Empleado/Aduana/InsertarAduana.aspx">Aduanas</a></li>
+                        </ul>
+                    </div>
+
+                    <div id ="logotipo">
+
+                        <img src="/images/igt.png" 
+                             alt="logo IGT" style="height: 116px; width: 146px" 
+                             />
+                    </div>
+
+                    <div id ="titulo">
+                        <h1>Importaciones Guatemala</h1>
+                        <h2>Importando productos en Guatemala</h2>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id ="bajo">
+
+                <div id ="columnaIzq">
+                    <asp:ContentPlaceHolder ID="contenidoMenuContextual" runat="server">
+                         
+                    </asp:ContentPlaceHolder>
+                </div>
+
+                <div id ="columnaCentro">
+                    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+                         
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id ="columnaDer">
+
+                </div>
+                <div id = "pie">
+                    <span>Proyecto de Base de Datos II</span>
+                </div>
+            </div>
+            
+        </div>
+    </form>
+</body>
+</html>

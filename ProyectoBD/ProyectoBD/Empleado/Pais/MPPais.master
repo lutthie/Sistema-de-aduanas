@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="MPPais.master.cs" Inherits="ProyectoBD.Empleado.Pais.MPPais" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="contenidoMenuContextual" runat="server">
+     <ul id ="menuContextual">
+         <li><a href="InsertarPais.aspx">Insertar País</a></li>
+         <li><a href="EliminarPais.aspx">Eliminar País</a></li>
+         <li><a href="ModificarPais.aspx">Modificar País</a></li>
+         <li><a href="VerPais.aspx">Paises</a></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="contenidoPrincipal" runat="server">
+    <asp:ContentPlaceHolder ID="contenidoPrincipal" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:Content>
